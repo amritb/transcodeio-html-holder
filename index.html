@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Video transcoding in it's simplest form - transcode.io</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="static/bootstrap.css">
+  <link rel="stylesheet" href="static/css.css">
+  <link rel="stylesheet" href="static/style3.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container"></div>
+    <div class="brand-nav">
+      <div class="pull-right">
+        <ul class="list-inline">
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Sign up</a></li>
+        </ul>
+      </div>
+      <div id="name-logo"><a href="#">Transcode.io</a></div>
+    </div>
+    <div></div>
+    <div>
+      <div class="front-page">
+        <div id="section1" class="row">
+          <div class="container">
+            <h3>No APIs. No iFrames. No embeds. No restrictions.</h3>
+            <h1>Video transcoding in it's simplest form</h1>
+            <div class="code-sample-typewriter">&lt;video controls&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;source
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;src="<span
+                class="code-bold">http://www.transcode.io/app/v1?key=<span id="type-vid-key">u|</span></span>
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;account_id=5279ce500a1135611f023454"
+              <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type="video/mp4"&gt;<br>&lt;/video&gt;<br></div>
+          </div>
+        </div>
+        <div id="section2" class="row">
+          <div class="container">
+            <p class="lead text-center leader">Transcode.io
+              brings to you (by far) the easiest way to transcode videos. For all
+              those who have used similar services on the web know how painful a job
+              this is, unnecessary thought process, which one would rather invest
+              elsewhere, we are here to end that permanently.
+              <br><br>This is how you are going to get the job done from now on:</p>
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <ol id="steps" class="lead">
+                <li><a href="#" class="label label-success">SIGNUP</a> Enter the host name
+                  (e.g. www.mysite.com) and path to the directory where you keep your videos (e.g. /uploads/vids/).</li>
+                <li><a href="#" class="label label-success">LOGIN</a> You can find the approval
+                  state and account_id from your dashboard.</li>
+                <li><a href="#" class="label label-success">USE</a> Use the accountID and the
+                  remaining path to the the videos in the <i>src</i> attribute of video element. (e.g.
+                  http://www.transcode.io/app/v1?key=my_vid.mov&amp;account_id=xyz).</li>
+              </ol>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="container">
+            <div>
+              <p class="lead text-center leader"><br>Thats it!<br><br>Really, thats it.</p>
+            </div>
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-10">
+                <p class="lead text-center"><br>You can login to your <a
+                    href="#">dashboard</a> and use it to track all your videos and usage.
+                  All users get 15 minutes of <strong>free</strong> transcoding.
+                  Once you are satisfied and truly believe all your transcoding problems are solved forever then we want
+                  you to tweet <a href="https://twitter.com/transcodeio">@transcodeio</a> and help us grow. </p>
+                <p class="lead text-center">Our plan is to charge <strong>$0.030</strong> per minute of video
+                  transcoding after we do a production launch.</p>
+                <p class="text-danger text-center">This service is not yet ready for production implementation.<br>The
+                  output is fixed to 360p 16:9 with mp4 container for now. Soon we will have configurable output
+                  resolution and format.</p>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Follow us on <a href="https://twitter.com/transcodeio">Twitter</a> for updates |
+          <a href="https://news.ycombinator.com/item?id=6638783">Hacker news</a> discussion |
+          <a href="mailto:hello@amritbera.com">hello@amritbera.com</a><br><button class="btn btn-link"
+            data-toggle="modal" data-target="#privacy" data-original-title="" title="">Privacy policy</button> |
+          <button class="btn btn-link" data-toggle="modal" data-target="#refund" data-original-title="" title="">Refund
+            policy</button></p>
+      </div>
+    </div>
+    <div id="privacy" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header"><button type="button" data-dismiss="modal" arial-hidden="true"
+              class="close">×</button>
+            <h4 class="modal-title">Privacy policy</h4>
+          </div>
+          <div class="modal-body">
+            <p>This
+              policy covers how we use your personal information. We take your
+              privacy seriously and will take all measures to protect your personal
+              information.</p>
+            <p>Any personal information received will only be used
+              to fill your order. We will not sell or redistribute your information to
+              anyone.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="refund" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header"><button type="button" data-dismiss="modal" arial-hidden="true"
+              class="close">×</button>
+            <h4 class="modal-title">Refund policy</h4>
+          </div>
+          <div class="modal-body">
+            <p>If
+              you are not 100% satisfied with your purchase, within 120 days from the
+              purchase date, we will fully refund the cost of your order.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script async="" src="static/analytics.js"></script>
+  <script src="static/jquery.js"></script>
+  <script src="static/bootstrap.js"></script>
+  <script src="static/typewriter.js"></script>
+  <script src="static/script.js"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-45245397-1', 'transcode.io');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+
+</html>
